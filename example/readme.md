@@ -67,6 +67,15 @@ sudo apt install npm
 <br>
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/env-duzenle.png" >
 
+## 🟢 8888 port açma 
+
+RPC Örneği Çalıştır
+
+```
+sudo ufw allow 8888
+```
+
+
 ## 🟢 Çalıştırma
 
 RPC Örneği Çalıştır
