@@ -64,6 +64,20 @@ sudo apt install npm
 
 5.  ```.env``` bilgileriniz düzenleyin
 
+  ```
+   nano .env
+   ```
+
+Burada açılan pencerede <br>
+
+INERY_ACCOUNT=  İnery hesap isminiz <br>
+PRIVATE_KEY="keyiniz"<br>
+NODE_URL="http://NODEİPADRESİ:8888" 
+<br><br>
+
+ctrl +X  Yes diyip çıkıyoruz.
+
+
 <br>
 <img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/env-duzenle.png" >
 
