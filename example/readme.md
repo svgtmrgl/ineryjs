@@ -1,32 +1,27 @@
-# Json RPC Sample for Task 4 Inery Blockchain
-A Sample code to call JSON RPC on Inery Blockchain
+# Inery Json RPC 4.Görev
+Inery Blockchain'de JSON RPC'yi çağırmak için örnek bir kod
 
-## Getting Started
+## Bilgiler
 
-JSON RPC Sample code are available at [example](https://github.com/alteregogi/ineryjs/blob/master/example/) directory, you can try to modify and understand how it works, you also need to have Valued Smart Contract ( Task 3 ) in your Account, to able run your code and call the valued contract function.
+JSON RPC Örnek kodu örnek dizinde mevcuttur, [example](https://github.com/herculessx/ineryjs/blob/master/example/) değiştirmeyi deneyebilir ve nasıl çalıştığını anlayabilirsiniz, ayrıca kodunuzu çalıştırabilmek ve değerli sözleşme işlevini çağırabilmek için Hesabınızda Değerli Akıllı Sözleşmeye (Görev 3) sahip olmanız gerekir.
 
 
 ### Prerequisites
 
-- Your Favorite Code Editor
-- Git
-- [Node.Js](https://nodejs.dev/en/)
-
-  - Ubuntu Installation Tutorial
-
-    Remove Previous Nodejs
+ 
+    Eski Nodejs kaldırın
 
     ```
     sudo apt-get remove nodejs
     ```
 
-    Install Curl
+    Curl'ü yükleyin
 
     ```
     sudo apt-get install curl
     ```
 
-    Install NodeJS
+   NodeJS yükleyin
 
     ```
     curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
@@ -35,9 +30,9 @@ JSON RPC Sample code are available at [example](https://github.com/alteregogi/in
 
     
 
-  - [Windows Installation](https://nodejs.org/dist/v18.12.1/node-v18.12.1-x64.msi)
+ 
 
-- npm
+- NPM Kurulumu
 
   - Ubuntu
 
@@ -46,39 +41,39 @@ JSON RPC Sample code are available at [example](https://github.com/alteregogi/in
   ```
 
 
-### Installation
+### Kurulum
 
-1. Clone the repo
+1. Repoyu klonlayın
 
    ```
-   git clone https://github.com/alteregogi/ineryjs.git
+   git clone https://github.com/herculessx/ineryjs.git
    ```
 
-2. Change directory to cloned repo
+2. Dizini klonlanmış depoya değiştir
 
    ```
    cd ineryjs
    ```
 
-3. Install NPM packages
+3. NPM Paket kurulumu
 
    ```
    npm install
    ```
 
-4. Copy `.env-sample` and rename it to `.env`
+4. `.env-sample`  `.env` yeniden adlandırın
 
    ```
    cp .env-sample .env
    ```
 
-5. Edit ```.env``` file with your information
+5.  ```.env``` bilgileriniz düzenleyin
 
 
 
 ## Usage
 
-Run RPC Example
+RPC Örneği Çalıştır
 
 ```
 npm run rpc-example
