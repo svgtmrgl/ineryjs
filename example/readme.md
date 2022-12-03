@@ -74,5 +74,5 @@ RPC Örneği Çalıştır
 npm run rpc-example
 ```
 
-işlem çıktısı aşağıdaki gibi olmalı
-<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/inery-okey.PNG" width="650">
+işlem çıktısı aşağıdaki gibi olmalı<br>
+<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/inery-okey.PNG" width="750">
