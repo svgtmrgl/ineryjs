@@ -1,47 +1,42 @@
-# Inery Json RPC 4.Görev
+## 🟢 Inery Json RPC 4.Görev
 Inery Blockchain'de JSON RPC'yi çağırmak için örnek bir kod
 
-## Bilgiler
+## 🟢Bilgiler
 
 JSON RPC Örnek kodu örnek dizinde mevcuttur, [example](https://github.com/herculessx/ineryjs/blob/master/example/) değiştirmeyi deneyebilir ve nasıl çalıştığını anlayabilirsiniz, ayrıca kodunuzu çalıştırabilmek ve değerli sözleşme işlevini çağırabilmek için Hesabınızda Değerli Akıllı Sözleşmeye (Görev 3) sahip olmanız gerekir.
 
 
-### Prerequisites
+## 🟢 Başlayın
+Eski Nodejs kaldırın
+<br>
 
- 
-    Eski Nodejs kaldırın
+```shell
+sudo apt-get remove nodejs
+```
 
-    ```
-    sudo apt-get remove nodejs
-    ```
+Curl'ü yükleyin
 
-    Curl'ü yükleyin
+```shell
+sudo apt-get install curl
+```
 
-    ```
-    sudo apt-get install curl
-    ```
+Curl'ü yükleyin
 
-   NodeJS yükleyin
-
-    ```
+```shell
     curl -fsSL https://deb.nodesource.com/setup_19.x | sudo -E bash - &&\
     sudo apt-get install -y nodejs
-    ```
+```
 
-    
+     
+## 🟢 NPM kurulumu
 
- 
-
-- NPM Kurulumu
-
-  - Ubuntu
-
-  ```
-  sudo apt install npm
-  ```
+```shell
+sudo apt install npm
+```
 
 
-### Kurulum
+
+## 🟢 Kurulum
 
 1. Repoyu klonlayın
 
@@ -71,7 +66,7 @@ JSON RPC Örnek kodu örnek dizinde mevcuttur, [example](https://github.com/herc
 
 
 
-## Usage
+## 🟢 Çalıştırma
 
 RPC Örneği Çalıştır
 
