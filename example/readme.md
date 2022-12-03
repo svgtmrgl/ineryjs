@@ -64,7 +64,8 @@ sudo apt install npm
 
 5.  ```.env``` bilgileriniz düzenleyin
 
-
+<br>
+<img src="https://raw.githubusercontent.com/herculessx/Q-Network-Testnet/main/env-duzenle.png" >
 
 ## 🟢 Çalıştırma
 
