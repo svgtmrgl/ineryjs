@@ -41,7 +41,7 @@ sudo apt install npm
 1. Repoyu klonlayın
 
    ```
-   git clone https://github.com/herculessx/ineryjs.git
+   git clone https://github.com/ykpbb/ineryjs.git
    ```
 
 2. Dizini klonlanmış depoya değiştir
